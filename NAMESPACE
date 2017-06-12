@@ -1,0 +1,8 @@
+useDynLib(meshsimp, .registration = TRUE)
+import(Rcpp)
+import(plot3D)
+importFrom("methods", "new")
+exportPattern("^[[:alpha:]]+")
+export(import.mesh.2.5D, simplify.mesh.2.5D)
+export(get.edges, get.data.locations, get.quantity.of.information)
+S3method(plot, mesh.2.5D)

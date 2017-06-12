@@ -1,0 +1,2 @@
+example			Driver running the simplification process within R
+example_file	Driver running the simplification process within R, reading the mesh from file

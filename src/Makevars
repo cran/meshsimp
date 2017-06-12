@@ -1,0 +1,5 @@
+PKG_CPPFLAGS = -I include -I include/declaration -I include/implementation -I include/inline -I lib/Eigen
+CXX_STD = CXX11
+
+all: $(SHLIB)
+
