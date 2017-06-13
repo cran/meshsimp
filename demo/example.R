@@ -10,9 +10,9 @@
 #' @param wdisp		Weight for the displacement cost function
 #' @param wequi		Weight for the equidistribution cost function
 
-dataset <- "pawn_2500"
-n1 <- 400
-n2 <- 300
+dataset <- "pawn_2522"
+n1 <- 2000
+n2 <- 1000
 wgeom <- 1/3
 wdisp <- 1/3
 wequi <- 1/3
@@ -33,11 +33,11 @@ plot.mesh.2.5D(mesh, main = sprintf("Original mesh, %i nodes", mesh$nnodes))
 
 # Simplify the mesh, then plot
 out1 <- simplify.mesh.2.5D(mesh, n1)
-plot.mesh.2.5D(out1$mesh, out1$locations, main = sprintf("Simplified mesh, %i nodes", n1))
+plot.mesh.2.5D(out1$mesh, main = sprintf("Simplified mesh, %i nodes", n1))
 
 # Resume the simplification, then plot the final mesh
 out2 <- simplify.mesh.2.5D(out1$mesh, n2, out1$locations)
-plot.mesh.2.5D(out2$mesh, out2$locations, main = sprintf("Simplified mesh, %i nodes", n2))
+plot.mesh.2.5D(out2$mesh, main = sprintf("Simplified mesh, %i nodes", n2))
 
 
 

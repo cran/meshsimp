@@ -1,5 +1,5 @@
 Package: meshsimp
-Version: 0.1
+Version: 0.1.1
 Date: 2017-06-09
 Title: Simplification of Surface Triangular Meshes with Associated
         Distributed Data
@@ -24,6 +24,6 @@ License: GPL-3
 NeedsCompilation: yes
 SystemRequirements: C++11
 RoxygenNote: 6.0.1
-Packaged: 2017-06-12 20:29:56 UTC; stefano
+Packaged: 2017-06-13 06:36:15 UTC; stefano
 Repository: CRAN
-Date/Publication: 2017-06-12 23:17:00 UTC
+Date/Publication: 2017-06-13 06:53:42 UTC
